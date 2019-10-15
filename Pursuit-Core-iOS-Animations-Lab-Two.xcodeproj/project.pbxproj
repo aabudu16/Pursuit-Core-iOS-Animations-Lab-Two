@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8500DE1F235626B20066F9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500DE1E235626B20066F9BC /* AppDelegate.swift */; };
+		8500DE21235626B20066F9BC /* BeachBallAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500DE20235626B20066F9BC /* BeachBallAnimationVC.swift */; };
+		8500DE24235626B20066F9BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8500DE22235626B20066F9BC /* Main.storyboard */; };
+		8500DE26235626B40066F9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8500DE25235626B40066F9BC /* Assets.xcassets */; };
+		8500DE29235626B40066F9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8500DE27235626B40066F9BC /* LaunchScreen.storyboard */; };
+		8500DE34235626B40066F9BC /* Pursuit_Core_iOS_Animations_Lab_TwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500DE33235626B40066F9BC /* Pursuit_Core_iOS_Animations_Lab_TwoTests.swift */; };
+		8500DE3F235627C00066F9BC /* Extention-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500DE3E235627C00066F9BC /* Extention-UIImage.swift */; };
+		8500DE41235628E40066F9BC /* Extention-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500DE40235628E40066F9BC /* Extention-Button.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8500DE30235626B40066F9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8500DE13235626B20066F9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8500DE1A235626B20066F9BC;
+			remoteInfo = "Pursuit-Core-iOS-Animations-Lab-Two";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8500DE1B235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pursuit-Core-iOS-Animations-Lab-Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8500DE1E235626B20066F9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8500DE20235626B20066F9BC /* BeachBallAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachBallAnimationVC.swift; sourceTree = "<group>"; };
+		8500DE23235626B20066F9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8500DE25235626B40066F9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8500DE28235626B40066F9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8500DE2A235626B40066F9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8500DE2F235626B40066F9BC /* Pursuit-Core-iOS-Animations-Lab-TwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pursuit-Core-iOS-Animations-Lab-TwoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8500DE33235626B40066F9BC /* Pursuit_Core_iOS_Animations_Lab_TwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pursuit_Core_iOS_Animations_Lab_TwoTests.swift; sourceTree = "<group>"; };
+		8500DE35235626B40066F9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8500DE3E235627C00066F9BC /* Extention-UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention-UIImage.swift"; sourceTree = "<group>"; };
+		8500DE40235628E40066F9BC /* Extention-Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention-Button.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8500DE18235626B20066F9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8500DE2C235626B40066F9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8500DE12235626B20066F9BC = {
+			isa = PBXGroup;
+			children = (
+				8500DE1D235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two */,
+				8500DE32235626B40066F9BC /* Pursuit-Core-iOS-Animations-Lab-TwoTests */,
+				8500DE1C235626B20066F9BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8500DE1C235626B20066F9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8500DE1B235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two.app */,
+				8500DE2F235626B40066F9BC /* Pursuit-Core-iOS-Animations-Lab-TwoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8500DE1D235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two */ = {
+			isa = PBXGroup;
+			children = (
+				8500DE1E235626B20066F9BC /* AppDelegate.swift */,
+				8500DE20235626B20066F9BC /* BeachBallAnimationVC.swift */,
+				8500DE3E235627C00066F9BC /* Extention-UIImage.swift */,
+				8500DE40235628E40066F9BC /* Extention-Button.swift */,
+				8500DE22235626B20066F9BC /* Main.storyboard */,
+				8500DE25235626B40066F9BC /* Assets.xcassets */,
+				8500DE27235626B40066F9BC /* LaunchScreen.storyboard */,
+				8500DE2A235626B40066F9BC /* Info.plist */,
+			);
+			path = "Pursuit-Core-iOS-Animations-Lab-Two";
+			sourceTree = "<group>";
+		};
+		8500DE32235626B40066F9BC /* Pursuit-Core-iOS-Animations-Lab-TwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8500DE33235626B40066F9BC /* Pursuit_Core_iOS_Animations_Lab_TwoTests.swift */,
+				8500DE35235626B40066F9BC /* Info.plist */,
+			);
+			path = "Pursuit-Core-iOS-Animations-Lab-TwoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8500DE1A235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8500DE38235626B40066F9BC /* Build configuration list for PBXNativeTarget "Pursuit-Core-iOS-Animations-Lab-Two" */;
+			buildPhases = (
+				8500DE17235626B20066F9BC /* Sources */,
+				8500DE18235626B20066F9BC /* Frameworks */,
+				8500DE19235626B20066F9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pursuit-Core-iOS-Animations-Lab-Two";
+			productName = "Pursuit-Core-iOS-Animations-Lab-Two";
+			productReference = 8500DE1B235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8500DE2E235626B40066F9BC /* Pursuit-Core-iOS-Animations-Lab-TwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8500DE3B235626B40066F9BC /* Build configuration list for PBXNativeTarget "Pursuit-Core-iOS-Animations-Lab-TwoTests" */;
+			buildPhases = (
+				8500DE2B235626B40066F9BC /* Sources */,
+				8500DE2C235626B40066F9BC /* Frameworks */,
+				8500DE2D235626B40066F9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8500DE31235626B40066F9BC /* PBXTargetDependency */,
+			);
+			name = "Pursuit-Core-iOS-Animations-Lab-TwoTests";
+			productName = "Pursuit-Core-iOS-Animations-Lab-TwoTests";
+			productReference = 8500DE2F235626B40066F9BC /* Pursuit-Core-iOS-Animations-Lab-TwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8500DE13235626B20066F9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mr Wonderful";
+				TargetAttributes = {
+					8500DE1A235626B20066F9BC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8500DE2E235626B40066F9BC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8500DE1A235626B20066F9BC;
+					};
+				};
+			};
+			buildConfigurationList = 8500DE16235626B20066F9BC /* Build configuration list for PBXProject "Pursuit-Core-iOS-Animations-Lab-Two" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8500DE12235626B20066F9BC;
+			productRefGroup = 8500DE1C235626B20066F9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8500DE1A235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two */,
+				8500DE2E235626B40066F9BC /* Pursuit-Core-iOS-Animations-Lab-TwoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8500DE19235626B20066F9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8500DE29235626B40066F9BC /* LaunchScreen.storyboard in Resources */,
+				8500DE26235626B40066F9BC /* Assets.xcassets in Resources */,
+				8500DE24235626B20066F9BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8500DE2D235626B40066F9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8500DE17235626B20066F9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8500DE21235626B20066F9BC /* BeachBallAnimationVC.swift in Sources */,
+				8500DE3F235627C00066F9BC /* Extention-UIImage.swift in Sources */,
+				8500DE1F235626B20066F9BC /* AppDelegate.swift in Sources */,
+				8500DE41235628E40066F9BC /* Extention-Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8500DE2B235626B40066F9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8500DE34235626B40066F9BC /* Pursuit_Core_iOS_Animations_Lab_TwoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8500DE31235626B40066F9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8500DE1A235626B20066F9BC /* Pursuit-Core-iOS-Animations-Lab-Two */;
+			targetProxy = 8500DE30235626B40066F9BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8500DE22235626B20066F9BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8500DE23235626B20066F9BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8500DE27235626B40066F9BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8500DE28235626B40066F9BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8500DE36235626B40066F9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8500DE37235626B40066F9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8500DE39235626B40066F9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pursuit-Core-iOS-Animations-Lab-Two/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myApps.Pursuit-Core-iOS-Animations-Lab-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8500DE3A235626B40066F9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pursuit-Core-iOS-Animations-Lab-Two/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myApps.Pursuit-Core-iOS-Animations-Lab-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8500DE3C235626B40066F9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pursuit-Core-iOS-Animations-Lab-TwoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myApps.Pursuit-Core-iOS-Animations-Lab-TwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pursuit-Core-iOS-Animations-Lab-Two.app/Pursuit-Core-iOS-Animations-Lab-Two";
+			};
+			name = Debug;
+		};
+		8500DE3D235626B40066F9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pursuit-Core-iOS-Animations-Lab-TwoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myApps.Pursuit-Core-iOS-Animations-Lab-TwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pursuit-Core-iOS-Animations-Lab-Two.app/Pursuit-Core-iOS-Animations-Lab-Two";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8500DE16235626B20066F9BC /* Build configuration list for PBXProject "Pursuit-Core-iOS-Animations-Lab-Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8500DE36235626B40066F9BC /* Debug */,
+				8500DE37235626B40066F9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8500DE38235626B40066F9BC /* Build configuration list for PBXNativeTarget "Pursuit-Core-iOS-Animations-Lab-Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8500DE39235626B40066F9BC /* Debug */,
+				8500DE3A235626B40066F9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8500DE3B235626B40066F9BC /* Build configuration list for PBXNativeTarget "Pursuit-Core-iOS-Animations-Lab-TwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8500DE3C235626B40066F9BC /* Debug */,
+				8500DE3D235626B40066F9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8500DE13235626B20066F9BC /* Project object */;
+}
