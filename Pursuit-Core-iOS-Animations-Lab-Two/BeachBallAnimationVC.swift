@@ -170,7 +170,7 @@ class BeachBallAnimationVC: UIViewController {
         }
     }
     
-    func addToSubView() {
+   private func addToSubView() {
         self.view.addSubview(topButtonStackView)
         self.view.addSubview(buttomButtonStackView)
         self.view.addSubview(firstBallImage)
@@ -178,17 +178,17 @@ class BeachBallAnimationVC: UIViewController {
         self.view.addSubview(thirdBallImage)
         self.view.addSubview(fourthBallImage)
     }
-    func constrainTopButtonStackView() {
+    private func constrainTopButtonStackView() {
         topButtonStackView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([topButtonStackView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 20),topButtonStackView.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),topButtonStackView.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor)])
     }
     
-    func constrainButtomButtonStackView(){
+   private func constrainButtomButtonStackView(){
         buttomButtonStackView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([buttomButtonStackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 20),buttomButtonStackView.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),buttomButtonStackView.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor)])
     }
     
-    func imageConstraints() {
+   private func imageConstraints() {
         firstBallImage.centerXAnchor.constraint(equalTo: linearButton.centerXAnchor).isActive = true
         firstBallImage.centerYAnchor.constraint(equalTo: linearButton.centerYAnchor, constant: 50).isActive = true
         secondBallImage.centerXAnchor.constraint(equalTo: easeInButton.centerXAnchor).isActive = true
