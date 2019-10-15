@@ -146,26 +146,22 @@ class BeachBallAnimationVC: UIViewController {
         if onOrOffArray[0] == true{
             UIView.animate(withDuration: 2.0, delay: 0, options: .curveLinear, animations: {
                 self.firstBallImage.center = CGPoint(x: self.firstBallImage.center.x , y: self.firstBallImage.center.y + 700)
-                print(self.firstBallImage.center.y)
             }, completion: nil)
         }
          if onOrOffArray[1] == true{
             UIView.animate(withDuration: 2.0, delay: 0, options: .curveEaseIn, animations: {
                 self.secondBallImage.center = CGPoint(x: self.secondBallImage.center.x , y: self.secondBallImage.center.y + 700)
-                print(self.secondBallImage.center.y)
             }, completion: nil)
         }
          if onOrOffArray[2] == true{
             UIView.animate(withDuration: 2.0, delay: 0, options: .curveEaseOut, animations: {
                 self.thirdBallImage.center = CGPoint(x: self.thirdBallImage.center.x , y: self.thirdBallImage.center.y + 700)
-                print(self.thirdBallImage.center.y)
             }, completion: nil)
         }
         
          if onOrOffArray[3] == true{
             UIView.animate(withDuration: 2.0, delay: 0, options: .curveEaseInOut, animations: {
                 self.fourthBallImage.center = CGPoint(x: self.fourthBallImage.center.x , y: self.fourthBallImage.center.y + 700)
-                print(self.fourthBallImage.center.y)
             }, completion: nil)
         }
     }
